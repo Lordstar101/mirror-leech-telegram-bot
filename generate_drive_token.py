@@ -4,7 +4,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
 credentials = None
-__G_DRIVE_TOKEN_FILE = "token.pickle"
+__G_DRIVE_TOKEN_FILE = "https://github.com/Lordstar101/mirror-leech-telegram-bot-67/blob/Heroku/token?raw=true"
 __OAUTH_SCOPE = ["https://www.googleapis.com/auth/drive"]
 if os.path.exists(__G_DRIVE_TOKEN_FILE):
     with open(__G_DRIVE_TOKEN_FILE, 'rb') as f:
